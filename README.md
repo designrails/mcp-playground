@@ -49,7 +49,7 @@ npm run dev
 The app will automatically redirect to `/issues` where you'll see sample issues loaded.
 
 4. Connect Design Rails to your AI coding agent:
-   - The server is pre-configured in `.mcp.json` (Claude Desktop, Cursor, Windsurf) or `.vscode/settings.json` (VS Code)
+   - The server is pre-configured in `.mcp.json` (Claude Desktop, Cursor, Codex) or `.vscode/settings.json` (VS Code)
    - Open your coding agent in this workspace—it should automatically detect it
    - You'll be prompted to sign in or create a Design Rails account
    - See [detailed setup instructions](https://designrails.com/#installation) if you need help
