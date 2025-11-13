@@ -1,12 +1,12 @@
 # Issue Tracker - Design Rails MCP Playground
 
-A basic Linear-style issue tracker ([demo](https://playground.designrails.com)) that serves as a playground for experimenting with the [Design Rails MCP Server](https://designrails.com). 
+A basic Linear-style issue tracker ([demo](https://playground.designrails.com)) that serves as a playground for experimenting with [Design Rails](https://designrails.com). 
 
-This intentionally minimal app comes with no design system or brand identity—just functional UI components and the Design Rails MCP Server already configured. Use it to experiment with creating a visual language from scratch, or jump straight into implementing features with AI-powered design specs and reviews.
+This intentionally minimal app comes with no design system or brand identity—just functional UI components and the MCP server already configured. Use it to experiment with creating a visual language from scratch, or jump straight into implementing features with AI-powered design specs and reviews.
 
 ## About
 
-This is a playground application designed for user testing of the Design Rails MCP Server. Design Rails is an MCP (Model Context Protocol) server that:
+This playground application is designed for user testing of Design Rails—an MCP (Model Context Protocol) server that:
 
 - Creates visual languages from scratch
 - Generates detailed design specs from feature requests and product context
@@ -48,9 +48,9 @@ npm run dev
 
 The app will automatically redirect to `/issues` where you'll see sample issues loaded.
 
-4. Connect the Design Rails MCP Server to your AI coding agent:
+4. Connect Design Rails to your AI coding agent:
    - The server is pre-configured in `.mcp.json` (Claude Desktop, Cursor, Windsurf) or `.vscode/settings.json` (VS Code)
-   - Open your coding agent in this workspace—it should automatically detect the MCP Server
+   - Open your coding agent in this workspace—it should automatically detect it
    - You'll be prompted to sign in or create a Design Rails account
    - See [detailed setup instructions](https://designrails.com/#installation) if you need help
 
@@ -60,7 +60,7 @@ The app will automatically redirect to `/issues` where you'll see sample issues 
 
 ## Ready-to-Use Feature Prompts
 
-The prompts below are ready to copy and paste into your AI coding agent to implement features and test the Design Rails MCP Server. They're organized by the type of design work required:
+The prompts below are ready to copy and paste into your AI coding agent to implement features and test Design Rails. They're organized by the type of design work required:
 
 ### 1. UI Polish & Accessibility
 Low-level refinements requiring specialized design expertise. These focus on making the existing app more polished, accessible, and responsive.
@@ -293,7 +293,7 @@ Add collaboration features:
 
 ## Use Design Rails in Your Own Project
 
-Want to use Design Rails MCP Server in your own project? Check out the [installation instructions](https://designrails.com/#installation) for detailed setup steps.
+Want to use Design Rails in your own project? Check out the [installation instructions](https://designrails.com/#installation) for detailed setup steps.
 
 ### Quick Setup
 
@@ -305,7 +305,7 @@ npx designrails@latest setup
 
 ## Contributing
 
-This is a playground project for testing Design Rails MCP server. Feel free to experiment with new features and design patterns.
+This is a playground project for testing Design Rails. Feel free to experiment with new features and design patterns.
 
 ## Tech Stack
 
