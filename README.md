@@ -1,6 +1,6 @@
 # Issue Tracker - Design Rails MCP Playground
 
-A Linear-style issue tracker built to serve as a testing playground for the [Design Rails MCP Server](https://github.com/Design Rails/mcp). This application provides a realistic, feature-rich environment for testing design iterations, visual language generation, and automated design reviews.
+A Linear-style issue tracker built to serve as a testing playground for the [Design Rails MCP Server](https://designrails.com). This application provides a realistic, feature-rich environment for testing design iterations, visual language generation, and automated design reviews.
 
 ## About
 
