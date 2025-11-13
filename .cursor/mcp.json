@@ -1,12 +1,5 @@
 {
   "mcpServers": {
-    "shadcn": {
-      "command": "npx",
-      "args": [
-        "shadcn@latest",
-        "mcp"
-      ]
-    },
     "designrails": {
       "type": "http",
       "url": "https://designrails.com/api/mcp"
