@@ -231,9 +231,17 @@ This issue tracker provides a rich foundation for testing design improvements. H
   - Live presence indicators
   - Collaborative editing
 
-## MCP Server Configuration
+## Set it up on your own project
 
-This project is configured to work with the shadcn MCP server for component discovery and installation. The configuration is in `.mcp.json`.
+Want to use Design Rails in your own project? Check out our [installation instructions](https://designrails.com/#installation) for detailed setup steps.
+
+### Quick Setup
+
+Use the CLI tool to set it up easily:
+
+```bash
+npx designrails@latest setup
+```
 
 ## Contributing
 
