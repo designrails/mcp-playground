@@ -11,55 +11,6 @@ This is a playground application designed for user testing of the Design Rails M
 - Conducts design reviews around color contrast, layout issues, and more
 - Works seamlessly with coding agents to improve design quality
 
-## Tech Stack
-
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS v4
-- **UI Components**: shadcn/ui (New York style)
-- **Drag & Drop**: @dnd-kit
-- **Rich Text**: Tiptap
-- **State Management**: React Context API
-- **Icons**: Lucide React
-
-## Features
-
-### Current Implementation
-
-- **Issue Management**
-  - Create, read, update, and delete issues
-  - Rich text descriptions with Tiptap editor
-  - Status tracking (Backlog, To Do, In Progress, In Review, Done, Canceled)
-  - Priority levels (None, Low, Medium, High, Urgent)
-  - Labels with custom colors
-  - Assignee management
-
-- **Views**
-  - List view with sortable table
-  - Kanban board with drag-and-drop between columns
-  - Detailed issue view with inline editing
-
-- **Collaboration**
-  - Comments on issues
-  - User switching (frictionless mock authentication)
-  - Activity timestamps
-
-- **Filtering & Search**
-  - Full-text search by title and ID
-  - Filter by status, priority, assignee
-  - Clear all filters
-
-- **UI/UX**
-  - Responsive design
-  - Dark mode support
-  - Empty states
-  - Skeleton loaders
-  - Smooth transitions and animations
-
-### Data Persistence
-
-All data is stored in-memory using React Context API. Changes persist during the session but reset on page refresh. This is intentional for playground testing purposes.
-
 ## Getting Started
 
 1. Install dependencies:
@@ -77,28 +28,6 @@ npm run dev
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 The app will automatically redirect to `/issues` where you'll see sample issues loaded.
-
-## Project Structure
-
-```
-├── app/
-│   ├── issues/          # Issues list and detail pages
-│   ├── board/           # Kanban board view
-│   ├── layout.tsx       # Root layout with providers
-│   └── globals.css      # Global styles and theme variables
-├── components/
-│   ├── ui/              # shadcn/ui components
-│   ├── issues/          # Issue-specific components
-│   ├── app-layout.tsx   # Main app navigation layout
-│   └── user-switcher.tsx
-├── lib/
-│   ├── context/         # React Context for state management
-│   ├── data/            # Mock data generators
-│   ├── constants.ts     # Status and priority configurations
-│   └── utils.ts         # Utility functions
-└── types/
-    └── index.ts         # TypeScript type definitions
-```
 
 ## Design Experiment Ideas
 
