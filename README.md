@@ -303,10 +303,6 @@ Use the CLI tool to set it up easily:
 npx designrails@latest setup
 ```
 
-## Contributing
-
-This is a playground project for testing Design Rails. Feel free to experiment with new features and design patterns.
-
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router)
